@@ -3,7 +3,7 @@
 echo '******  批量自动同步密钥脚本 ******:'
 
 file=$1
-if [ ! -n "$file" ]; then
+if [ ! -e "$file" ]; then
     echo -e "\033[31m 请选择配置文件!!!!!!!!! \033[0m"
     exit
 fi
