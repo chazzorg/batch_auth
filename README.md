@@ -13,6 +13,8 @@
 
 batch_auth 解决批量服务器授权问题，通过执行脚本，可以让管理机器完成对其他目标服务器的ssh密钥授权。
 
+#### 项目地址 ：[码云](https://gitee.com/chazzorg/batch_auth)      [github](https://github.com/chazzorg/batch_auth)
+
 **使用概览：**
 
 1. 编辑目标服务器账号文件 `host`, 最后一行留一行空白
